@@ -496,6 +496,7 @@
     }
   ],
   "settings": {
+    "enableVisualSearch": true,
     "enableRecaptcha": false,
     "recaptchaSiteKey": null,
     "__recaptchaSecrete": null,

@@ -1,0 +1,39 @@
+{
+    "apiUrl": "https://searchconfig-cqa.certonakube.kibo-dev.com/portal/start",
+    "inputId": "mz-searchbox-input",
+    "anchorElement":"mz-searchbox-field-dd",
+    "appid":"k-16493",
+    "apiKey":"49bd6667-8dee-4037-846c-743b5984b421",
+    "scheme":"visualsearch1_rr",
+    "numSuggestions":8,
+    "numRecs":4,
+    "attributeMappings":{
+        "suggestion":{
+            "name":"title",
+            "detailUrl":"image_link",
+            "itemId":"Account_Item_ID"
+        },
+        "recDetailLink":{
+            "detailUrl":"link"
+        },
+        "recImage":{
+            "name":"ShortDescription",
+            "imageUrl":"image_link"
+        },
+        "recName":{
+        "name":"ShortDescription"
+        },
+        "recPrice": {
+        "currentPrice": "price"
+        }
+    },
+    "arrangement":"vertical",
+    "suggestionsPosition": "top",
+    "itemsLayout":{
+        "suggestions":"vertical",
+        "recommendations":{
+        "recLayout":"vertical",
+        "contentView":"landscape"
+        }
+    }
+}
